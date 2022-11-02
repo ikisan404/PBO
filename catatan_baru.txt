@@ -1,0 +1,21 @@
+harrington = di mana class menjadi superclass dan memiliki subclass
+
+var super digunakan untuk memanggil superclass
+super.act();
+
+    public void generateEnemy2(int speed){
+        if(Greenfoot.getRandomNumber(180)<3){
+            Enemy2 enemy2= new Enemy2 (speed +5);
+            addObject(enemy2,getWidth(),Greenfoot.getRandomNumber(getHeight()-80)+20);
+        }
+    }
+
+-public = semua boleh tau, semua bisa
+-private = cukup tau, hanya class
+-protected = yang tau tau aja, class dan subclass
+
+assignmen about make a laser for an enemy.
+
+polymorphism
+overloading
+overriding
